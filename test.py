@@ -10,8 +10,8 @@ def random_3d6():
     d2 = rd.randint(1,6)
     d3 = rd.randint(1,6)
     d4 = rd.randint(1,6)
-    d5 = rd.randint(1,6)
-    rolls = [d1, d2, d3, d4, d5]
+    #d5 = rd.randint(1,6)
+    rolls = [d1, d2, d3, d4]
     rolls.sort(reverse=True)
     stat = sum(rolls[0:3])
     return stat
